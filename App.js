@@ -11,6 +11,8 @@ import CreateFolder from './src/screen/CreateFolder';
 import OptionTest from './src/screen/OptionTest';
 import Flashcards from './src/component/FlashCards';
 import Flashcard_List from './src/component/FlashCard_List';
+// import Flashcard from './src/screen/FlashCard';
+import Test from './src/screen/Test';
 var widthfull = Dimensions.get('window').width; //full width
 var heightfull = Dimensions.get('window').height; //full height
 export default function App() {
@@ -20,13 +22,14 @@ export default function App() {
       {/* <Search/> */}
       {/* <Create/> */}
       {/* <CreateFolder/> */}
-      <NavigationContainer>
+      {/* <NavigationContainer>
         <AuthNavigator/>
-      </NavigationContainer>
+      </NavigationContainer> */}
       {/* <OptionTest/> */}
       {/* <Flashcards/> */}
       {/* <Flashcard_List/> */}
      {/* <Login/> */}
+     <Test/>
     </View>
   );
 }
