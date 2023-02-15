@@ -1,11 +1,16 @@
 import React, {useRef, useState, useEffect} from 'react';
 import {Animated, PanResponder, Dimensions} from 'react-native';
-import clamp from 'clamp';
+
 const {width} = Dimensions.get('screen');
 
 const SWIPE_THRESHOLD = 0.25 * width;
 
 export default function useTinderCards(deck) {
+  function clamp(value, min, max) {
+    return min < max
+      ? (value < min ? min : value > max ? max : value)
+      : (value < max ? max : value > min ? min : value)
+  }
   const [data, setData] = useState(deck);
   const [dataHeader, setDataHeader] = useState({
     indexFashCard: 0,

@@ -151,7 +151,7 @@ function FlashCard() {
                     justifyContent: 'center',
                     alignItems: 'center',
                   }}>
-                  <Text style={{fontSize: 40, color: 'white', fontWeight: 500}}>
+                  <Text style={{fontSize: 40, color: 'white', fontWeight: "500"}}>
                     {item.name}
                   </Text>
                 </View>
@@ -199,7 +199,7 @@ function FlashCard() {
         <View style={{marginLeft: 30, marginRight: 30}}>
           <View style={{flexDirection: 'row'}}>
             <View style={{width: '75%'}}>
-              <Text style={{color: 'white', fontSize: 20, fontWeight: 700}}>
+              <Text style={{color: 'white', fontSize: 20, fontWeight: "700"}}>
                 Bạn đang làm rất tuyệt! Hãy tiếp tục tập trung vào các thuật ngữ
                 khó.
               </Text>
@@ -219,7 +219,7 @@ function FlashCard() {
                 outerColor="#C15E24"
                 innerColor="#0A092D"
                 showPercent
-                percentStyle={{color: 'white', fontSize: 20, fontWeight: 500}}
+                percentStyle={{color: 'white', fontSize: 20, fontWeight: "500"}}
               />
             </View>
             <View style={{flex: 1, justifyContent: 'space-between'}}>
@@ -229,7 +229,7 @@ function FlashCard() {
                   style={{
                     color: 'white',
                     fontSize: 15,
-                    fontWeight: 700,
+                    fontWeight: "700",
                     color: '#82E5B8',
                   }}>
                   Biết
@@ -244,7 +244,7 @@ function FlashCard() {
                     borderRadius: 20,
                   }}>
                   <Text
-                    style={{color: '#82E5B8', fontWeight: 600, fontSize: 10}}>
+                    style={{color: '#82E5B8', fontWeight: "600", fontSize: 10}}>
                    {dataHeader.indexStudied}
                   </Text>
                 </View>
@@ -255,7 +255,7 @@ function FlashCard() {
                   style={{
                     color: 'white',
                     fontSize: 15,
-                    fontWeight: 700,
+                    fontWeight: "700",
                     color: '#C15E24',
                   }}>
                   Đang học
@@ -270,7 +270,7 @@ function FlashCard() {
                     borderRadius: 20,
                   }}>
                   <Text
-                    style={{color: '#C15E24', fontWeight: 600, fontSize: 10}}>
+                    style={{color: '#C15E24', fontWeight: "600", fontSize: 10}}>
                    {dataHeader.indexStudying}
                   </Text>
                 </View>
@@ -281,7 +281,7 @@ function FlashCard() {
             <Text
               style={{
                 color: '#4654F6',
-                fontWeight: 600,
+                fontWeight: "600",
                 fontSize: 15,
                 textAlign: 'center',
               }}>
@@ -300,7 +300,7 @@ function FlashCard() {
                   style={{
                     textAlign: 'center',
                     color: 'white',
-                    fontWeight: 700,
+                    fontWeight: "700",
                     fontSize: 15,
                   }}>
                   Làm bài kiểm tra thử
@@ -319,7 +319,7 @@ function FlashCard() {
                   style={{
                     textAlign: 'center',
                     color: 'white',
-                    fontWeight: 700,
+                    fontWeight: "700",
                     fontSize: 15,
                   }}>
                   Đặt lại thẻ ghi nhớ
