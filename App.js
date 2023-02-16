@@ -13,6 +13,7 @@ import Flashcards from './src/component/FlashCards';
 import Flashcard_List from './src/component/FlashCard_List';
 import Flashcard from './src/screen/FlashCard';
 import Test from './src/screen/Test';
+import Personal from './src/screen/Personal';
 var widthfull = Dimensions.get('window').width; //full width
 var heightfull = Dimensions.get('window').height; //full height
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
       {/* <Search/> */}
       {/* <Create/> */}
       {/* <CreateFolder/> */}
+      {/* <Personal/> */}
       <NavigationContainer>
         <AuthNavigator/>
       </NavigationContainer>
@@ -37,6 +39,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     width:widthfull,
-    height:heightfull
+    height: '100%',
   },
 });
